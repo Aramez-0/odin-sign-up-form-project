@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+html, body {
+    background-color: rgba(116, 113, 113, 0.555);
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    min-width: 660px;
+}
+
+#logo-img-container {
+    background-image: url("img/halie-west-bTzpau9mKT4-unsplash.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2vmin;
+    height: 100%;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+#credit {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#logo-container {
+    background-color: rgba(0, 0, 0, 0.767);
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20%;
+    font-family: Norse-Bold;
+}
+
+#logo-container * {
+    font-size: 2rem;
+    color: white;
+    margin: 0px;
+}
+
+#logo-container img {
+    height: 90%;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-line {
+    display: flex;
+    gap: 10px;
+}
+
+.input-align {
+    display: flex;
+    flex-direction: column;
+    margin: 2vmin;
+}
+
+input {
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border-color: green;
+    border-radius: 10%;
+}
+
+#footer a {
+    text-decoration: none;
+    color: forestgreen;
+}   
+
+/*
+* input field is fucked / less
+* css is a pain / still
+* the size of container should have something to do with calculating
+* the largest/smallest size and switching accordingly
+* 
+*/
